@@ -1,11 +1,12 @@
 #section{
-    border: 3px dotted black;
+    border: 3px solid black;
     margin: 20px 400px ;
+    background-color: rgb(247, 225, 186);
 }
 
 
 .section1 input{
-    width: 150px;
+    /* width: 150px; */
     height: 50px;
     background-color: blue;
     border:none;
@@ -15,6 +16,10 @@
     font-size: 2rem;
     margin-right: 30px;
     text-align: center;
+}
+
+.section1 input::placeholder{
+    color: white;
 }
 
 #button{
